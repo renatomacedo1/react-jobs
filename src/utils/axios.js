@@ -6,7 +6,7 @@ import axios from "axios";
 //  https://jobify-prod.herokuapp.com/api/v1/toolkit
 
 const customFetch = axios.create({
-  baseURL: "https://jobs-api-renatomacedo.herokuapp.com/api/v1",
+  baseURL: "https://jobify-prod.herokuapp.com/api/v1/toolkit",
 });
 
 export default customFetch;
